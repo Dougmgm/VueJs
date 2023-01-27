@@ -8,19 +8,27 @@
             <li>C#</li>
             <li>SQL</li>
         </ul>
-        <p> Mande um mensagem para {{ email }}</p>
+        <p v-show="mostrar_email"> Mande um mensagem para {{ email }}</p>
+        <p>Para acessar meu portfolio basta clicar <a v-bind:href="meu_link" target="blank">aqui</a></p> <!-- "v-bind" para criar um link de forma dinamica-->
+        <Picture />
     </div>    
 </template>
 
 <script>
+    import Picture from './Picture.vue';
+
     export default {
-        name: 'Info',
-        data() {
-            return {
-                esta_trabalhando: true, // Booleano, dependedo do valor ele vai intereferir no layout
-                mostrar_email: true,
-                email: 'teste@email.com'
-            }
-        }
+    name: "Info",
+    components: {
+        Picture
+    },
+    data() {
+        return {
+            esta_trabalhando: true,
+            mostrar_email: true,
+            email: "teste@email.com",
+            meu_link: "https://www.google.com/"
+        };
     }
+}
 </script>

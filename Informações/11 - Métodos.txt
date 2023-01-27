@@ -1,0 +1,8 @@
+Os métodos do Vue são como funções;
+
+- Podemos executa-los baseados em eventos ou por alguma lógica da aplicação;
+
+- Eles ficam em um objeto chamado methods;
+
+- Onde criamos as funções que posteriormente serão executadas;
+
