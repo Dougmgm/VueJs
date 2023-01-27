@@ -1,0 +1,10 @@
+- As diretivas do Vue são muitas;
+
+- Por exemplo: v-if, v-show, v-for;
+
+- Pode mudar a exibição de uma parte do layout, baseada em uma condição;
+
+- As diretivas são essenciais  para uma aplicação dinâmica;
+
+- Podemos alterar a lógica pelos valores inseridos em data;
+

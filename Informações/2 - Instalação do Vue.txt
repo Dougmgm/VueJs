@@ -1,0 +1,4 @@
+- Instalação do Vue é simples e pode usar via CDN inserindo link de script;
+
+- Mas para ter acesso a todas as funcionalidades é recomendado utilizar o CLI;
+
