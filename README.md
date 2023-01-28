@@ -1,5 +1,4 @@
-# 2_projeto_vue
-
+# Aulas de VueJs
 ## Project setup
 ```
 npm install
