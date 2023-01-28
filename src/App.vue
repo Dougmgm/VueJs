@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header  :esta_logado="true"/>
     <PrimeiroComponente /> <!-- Após a importação dos dados e a criação do export é possível chamar o .vue diretamente no template-->
     <p>
       O dado de app é: {{ testando }}

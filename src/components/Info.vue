@@ -1,5 +1,6 @@
 <template>
     <div>
+        <p></p>
         <p v-if="esta_trabalhando">Estou trabalhando no momento.</p> <!-- O "v-if" está puxando a condicional do script, caso o valor da mesma seja "false", logo não irá aparecer na tela -->
         <p v-else>Não estou trabalhando no momento</p> <!-- O else precisa estar logo abaixo do if, do contrário não irá funcionar-->
         <p>Utilizo as seguintes tecnologias para backend</p>
@@ -34,11 +35,13 @@
         Picture,
         // Form
     },
+    props: {
+        email: String
+    },
     data() {
         return {
             esta_trabalhando: true,
             mostrar_email: false,
-            email: "teste@email.com",
             meu_link: "https://www.google.com/",
             texto_botao: "Mostar Email",
             backend_technologies: ["Javascript", "PHP", "Python"], //formato array
