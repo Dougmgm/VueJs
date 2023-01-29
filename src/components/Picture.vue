@@ -19,13 +19,12 @@
         },
         methods: {
             trocarImagem() {
-                console.log("teste")
+                this.avatar = "/img/avatar2.png"
             }
         },
         data() {
             return {
                 avatar: "/img/avatar.png",
-                avatar2: "/img/avatar2.png",
                 descricao: "Douglas Menchon"
             }
         }
